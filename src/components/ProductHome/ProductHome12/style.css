@@ -1,0 +1,116 @@
+.product9 .product-item {
+  padding: 8px !important;
+}
+
+.product9 .product-item .product-img img {
+  object-position: center;
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+}
+
+.product9 .product-item {
+  min-height: 300px;
+}
+
+.product9 .product-item .product-img {
+  padding-top: unset !important;
+}
+
+.product9 .product-name a {
+  font-weight: 400 !important;
+}
+
+.product9 .product-name a {
+  font-weight: 400 !important;
+}
+
+
+.product9 .product-item .product-name {
+  min-height: 35px !important;
+}
+
+.home-voucher-container {
+  display: flex;
+  gap: 16px;
+  margin-left: 4px;
+  overflow-x: scroll;
+  position: relative;
+}
+.home-voucher-container .btn-view-all {
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.home-voucher-container .btn-view-all:hover {
+  opacity: 85%;
+}
+
+.hidden-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hidden-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+.home-voucher {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, .15);
+  margin: 40px 0;
+  max-width: 320px;
+  border-radius: 8px;
+  min-width: 280px;
+}
+
+.home-voucher .icon-voucher {
+  position: relative;
+  width: fit-content;
+}
+
+.home-voucher .icon-voucher .voucher-name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  color: white;
+  left: 50%;
+  text-align: center;
+  width: 80%;
+}
+
+.home-voucher .voucher-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home-voucher .voucher-content .voucher-code {
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.home-voucher .voucher-content .voucher-detail {
+  font-size: 13px;
+  color: #727272;
+}
+
+.home-voucher .voucher-content .copy-code {
+  width: fit-content;
+  padding: 4px;
+  font-size: 12px;
+  padding: 4px 10px;
+  background-color: #f5a623;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.home-voucher .voucher-content .copy-code:hover {
+  background-color: #1654a0;
+  cursor: pointer;
+}

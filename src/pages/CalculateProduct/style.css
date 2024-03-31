@@ -1,0 +1,249 @@
+.calculate .form-control p {
+  margin-top: unset !important;
+  color: black !important;
+  font-weight: 500;
+  text-align: left !important;
+}
+
+.calculate .form-control {
+  margin-top: 10px;
+}
+
+.calculate .form-control span {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.calculate table th,
+td {
+  text-align: center;
+  padding: .5em;
+  border: 1px solid lightgrey;
+}
+
+.calculate table .price {
+  max-width: 130px;
+  min-width: 70px
+}
+
+.price-input {
+  text-align: right;
+  width: 100%;
+
+}
+
+.calculate table .quantity {
+  max-width: 60px;
+  min-width: 50px
+}
+
+.calculate table .size input {
+  max-width: 38px;
+}
+
+.discount {
+  width: 100%;
+  text-align: right;
+  font-weight: 500;
+
+}
+
+
+.calculate table .total {
+  max-width: 130px;
+  min-width: 80px;
+    font-weight: 500;
+  text-align: right;
+}
+
+.calculate table input:not(.discount, .price, .price-input) {
+  margin-top: unset !important;
+  padding: 5px 0 !important;
+  font-size: unset !important;
+  text-align: center;
+}
+
+.calculate {
+  width: 100% !important;
+  background: white;
+  padding: 2em;
+  border-radius: 0.5em;
+  /* max-height: 595px !important;
+    overflow: auto; */
+}
+
+.calculate-container {
+  max-width: 1140px;
+  margin: 20px auto 20px auto;
+
+}
+
+.calculate::-webkit-scrollbar {
+
+  display: none;
+}
+
+.calculate .close-btn {
+  top: 2px !important;
+  right: 5px !important;
+}
+
+.calculate table .product-name {
+  text-align: left;
+  max-width: 270px;
+  position: relative;
+  min-width: 180px;
+}
+
+.calculate table .price-after {
+  text-align: right;
+  min-width: 70px;
+  /* width: 140px; */
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.print-calculate {
+  color: blueviolet;
+  text-decoration: underline !important;
+}
+
+
+@media print {
+  .print-calculate {
+    display: none;
+  }
+
+  .select-product {
+    display: none;
+  }
+
+  .show-data .add-icon {
+    display: none;
+  }
+
+  .show-data .remove-icon {
+    display: none;
+  }
+
+  .print-calculate .distribute-select{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .calculate table .product-name {
+    /* width: 300px; */
+  }
+
+  .calculate table .price,
+  .price-after {
+    /* width: 75px !important; */
+  }
+
+  .calculate table .size {
+    /* width: 40px; */
+  }
+}
+
+.group-distribute {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80px;
+}
+
+.remove-distribute {
+  display: flex;
+  justify-content: end;
+}
+
+.add-icon {
+  color: green;
+  margin-top: 5px;
+}
+
+.remove-icon {
+  color: red;
+}
+
+.icon-distribute {
+  font-size: 17px;
+}
+
+.calculate-container .distribute-select {
+  padding: 1em;
+  position: absolute;
+  margin: 0;
+  top: 3.5em;
+  min-width: 200px;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0 0 4px 0 #333;
+  background-color: white;
+  opacity: 1;
+  color: #333;
+  z-index: 4;
+  border-radius: 0.25em;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.calculate-container .distribute-select label {
+  font-size: 16px;
+  width: 100%;
+  display: block;
+}
+
+.calculate-container .distribute-select button {
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  margin-top: 4px;
+  display: block;
+  margin-right: 0.5em;
+  padding: 6px 10px;
+  background-color: whitesmoke;
+}
+
+.calculate-container .distribute-select.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* .calculate-container .table-responsive {
+  overflow-x: scroll;
+  overflow-y: hidden;
+} */
+
+.calculate-container .area {
+  min-width: 70px;
+}
+
+.choose-distribute {
+  position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+  .calculate-container .table-responsive {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .calculate-container .choose-distribute .active{
+    position: fixed;
+    left: 30%;
+    top: 30%;
+  }
+}
+
+
+@media only screen and (min-width: 1000px) {
+  .calculate-container .table-responsive {
+    overflow-x: visible;
+    overflow-y: visible;
+  }
+
+  
+}

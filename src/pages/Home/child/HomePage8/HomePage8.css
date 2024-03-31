@@ -1,0 +1,14 @@
+.home-8 .menu-main .list-name {
+  padding: 0px;
+  padding-left: 17px;
+  display: flex;
+}
+
+.home-8 .sub-menu-2 {
+  display: none;
+  z-index: 5;
+}
+
+.home-8 .column {
+  padding-top: 0px;
+}

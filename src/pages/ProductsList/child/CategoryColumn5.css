@@ -1,0 +1,18 @@
+
+.categories-column5 .product-category-toggle-1 {
+    cursor: pointer;
+    padding-left: 20px;
+    height: 40px;
+    color: #223771;
+}
+.name-list{
+
+    width : 160px
+}
+.categories-column5 .product-category-toggle-1 {
+    /* background-image: url(../../img/cate-bg.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    background: transparent;
+}

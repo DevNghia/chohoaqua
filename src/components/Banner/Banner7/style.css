@@ -1,0 +1,229 @@
+.banner9 {
+  margin-bottom: 3rem;
+}
+.banner9 .banner {
+  gap: 10px;
+}
+@media only screen and (min-width: 500px) {
+  .banner9 .list-nav-top-banner {
+    display: flex;
+    gap: 10px;
+    padding: 10px 10px 10px 0;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  .banner9 .list-nav-top-banner a {
+    padding-left: 20px;
+  }
+} */
+
+.banner9 .nav-list-name {
+  position: relative;
+  cursor: pointer;
+}
+.banner9 .nav-list-category-main {
+  box-shadow: 0 0 8px 0 #949292;
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+/* @media only screen and (min-width: 768px) {
+  .banner9 .list-nav-top-banner a {
+    padding-left: 20px;
+  }
+} */
+
+.banner9 .box-categor-children {
+  padding: 10px;
+}
+.banner9 .box-categor-children img {
+  width: 50px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* @media only screen and (min-width: 768px) {
+  .banner9 .list-nav-top-banner a {
+    padding-left: 20px;
+  }
+} */
+.banner9 .col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+@media (min-width: 768.98px) {
+  .banner9 .col-md-8 {
+    -ms-flex: 0 0 66.66667%;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+  }
+}
+
+.banner9 .slick-prev {
+  left: 0px;
+}
+
+.banner9 .slick-prev,
+.banner9 .slick-next {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  padding: 0.5em;
+  width: 30px;
+  height: 40px;
+  z-index: 3;
+  border-radius: 4px;
+}
+.banner9 .slick-next {
+  right: 0px;
+}
+@media only screen and (min-width: 1100px) {
+  .banner9 .slick-dots {
+    width: 100%;
+    bottom: 0px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner9 .slick-dots {
+    bottom: 8px;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .banner9 .swiper-slide {
+    overflow: hidden;
+  }
+}
+
+.banner9 .banner9 .swiper-slide > a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+.banner9 .slick-slide img {
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 12px 1px rgb(207 205 205);
+  width: 100%;
+}
+.banner9 .slick-slide img {
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .banner9 .slick-slide img {
+    height: 200px;
+  }
+  .banner9 .banner-abs-nav {
+    height: 200px;
+    overflow: scroll;
+  }
+}
+@media (min-width: 600px) {
+  .banner9 .slick-slide img {
+    height: 300px;
+  }
+  .banner9 .banner-abs-nav {
+    height: 300px;
+    overflow: scroll;
+  }
+}
+@media (min-width: 992px) {
+  .banner9 .slick-slide img {
+    height: 412px;
+  }
+  .banner9 .banner-abs-nav {
+    height: 412px;
+    overflow: scroll;
+  }
+}
+@media (min-width: 1200px) {
+  .banner9 .slick-slide img {
+    height: 412px;
+  }
+}
+@media (min-width: 1500px) {
+  .banner9 .slick-slide img {
+    height: 412px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .banner9 .banner-abs-nav {
+  }
+}
+@media (min-width: 768.98px) {
+  .banner9 .col-md-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .banner9 .banner-abs-nav {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .banner9 .banner-abs-nav {
+    height: 412px;
+    overflow: scroll;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .banner9 .banner-abs-nav {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768.98px) {
+  .banner9 .col-md-4 {
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+.banner9 .banner-abs-nav li {
+  display: inline-block;
+}
+@media only screen and (min-width: 992px) {
+  .banner9 .banner-abs-nav img {
+    border-radius: 5px;
+  }
+}
+.banner9 .nav-list-name:hover .nav-list-category-main {
+  display: block;
+  border-radius: 5px;
+  background: #fbfcfd;
+  box-shadow: 0 0 8px 0 #949292;
+  width: 200px;
+}
+@media only screen and (min-width: 525px) and (max-width: 768px) {
+  .banner9 .banner-abs-nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024.98px) {
+  .banner9 .list-nav-top-banner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner9 .list-nav-top-banner li img {
+    display: none;
+  }
+}

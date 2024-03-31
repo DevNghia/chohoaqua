@@ -1,0 +1,41 @@
+.category-post-3 .site_category {
+    background: white;
+}
+
+.category-post-3 .block-cate ul .list-icon-block-cate .title-block-cate {
+    margin-top: 7px;
+}
+.category-post-3  .block-cate ul .list-icon-block-cate img {
+    width: 30px;
+    border-radius: 5px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.category-post-3  .block-cate ul .list-icon-block-cate {
+    display: flex;
+    padding: 10px;
+}
+
+
+
+.category-post-3  .section_product .title-links ul li {
+    margin-bottom: 5px;
+}
+
+.category-post-3 a:hover {
+    color: #ffb416;
+}
+
+@media (max-width: 767px) {
+    .category-post-3  {
+      display: none;
+    }
+  }
+  
+
+  .category-post-3 .aside_category {
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 250px;
+}

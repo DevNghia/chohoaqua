@@ -1,0 +1,81 @@
+.news-page .collaborator-action {
+    display: flex;
+    justify-content: end;
+    margin-top: 15px;
+}
+
+
+
+
+  
+
+  
+  .news-page .share button {
+    font-size: 16px;
+    width: 2em;
+    height: 2em;
+    color: white;
+    margin-right: 0.5em;
+    border-radius: 0.25em;
+    background-color: #0238ad;
+    cursor: pointer;
+  }
+  
+  .news-page #share-btn {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    padding-left: 0em;
+    border-radius: 0.25em;
+    background-color: #0645cf;
+  }
+  
+  .news-page #share-btn i {
+    width: 2em;
+    margin-right: 0.5em;
+    border-right: 1px solid white;
+  }
+  
+  .news-page #link-btn {
+    color: white;
+    font-size: 16px;
+    padding: 0 10px;
+    height: 2em;
+    border-radius: 0.25em;
+    background-color: #f57224;
+    cursor: pointer;
+  }
+  
+  .news-page #addcart-btn {
+    padding: 10px 20px;
+    max-width: 100%;
+    font-size: 16px;
+    background-color: #ff3945;
+    color: white;
+    border-radius: 0.25em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+  }
+
+  .news-page .modal .link-popup {
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: white;
+    max-width: 90%;
+    overflow: hidden;
+  }
+  
+  .news-page  .modal .link-popup > div {
+    width: 100%;
+  }
+  
+  .news-page  .modal .link-popup button {
+    display: block;
+    margin: auto;
+    font-size: 14px;
+    padding: 6px 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+  }
+  

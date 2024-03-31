@@ -1,0 +1,1 @@
+export const ORDER_FROM_WEB = 0

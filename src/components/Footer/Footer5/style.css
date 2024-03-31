@@ -1,0 +1,41 @@
+.icon-footer button{
+    margin-right: 10px;
+}
+
+.footer7 .footer-item .footer-title {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 1.25rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: uppercase
+}
+
+.footer7 .footer-item .footer-title span {
+    margin-left: 3px;
+    font-size: .75rem
+}
+
+.footer7 .footer-item+.footer-item {
+    margin-top: 1.875rem
+}
+
+.footer7 .footer-item.footer-info .footer-title {
+    margin-bottom: .3125rem
+}
+
+.footer7 .footer-item.footer-info a,   .footer7  .footer-item.footer-info a strong {
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: baseline
+}
+
+.footer7 .footer-item.footer-info a {
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-transform: uppercase
+}

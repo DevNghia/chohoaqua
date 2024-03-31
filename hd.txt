@@ -1,0 +1,32 @@
+auto build
+
+git checkout son
+git pull
+git checkout dev                                                                             
+
+git merge son
+git add .
+git commit -m "Merge huy"
+git push
+
+cd ../customer_ferlitizer_build 
+git pull
+cd ../ikitech_customer_web
+
+npm run build
+linux
+rm -rf ../customer_ferlitizer_build/*
+mv ./build/* ../customer_ferlitizer_build/
+cd ../customer_ferlitizer_build 
+
+
+git add .
+git commit -m "New"
+git push -f
+cd ../ikitech_customer_web
+
+cd /www/wwwroot/sub.isempai.net/public
+git pull
+
+cd /www/wwwroot/sub.myiki.vn/public
+git pull

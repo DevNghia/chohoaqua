@@ -1,0 +1,30 @@
+.product9 .product-item {
+  padding: 8px !important;
+}
+
+.product9 .product-item .product-img img {
+  object-position: center;
+  object-fit: cover;
+  height: 220px;
+  width: 100%;
+}
+
+.product9 .product-item {
+  min-height: 300px;
+}
+
+.product9 .product-item .product-img {
+  padding-top: unset !important;
+}
+
+.product9 .product-name a {
+  font-weight: 400 !important;
+}
+
+.product9 .product-name a {
+  font-weight: 400 !important;
+}
+
+.product9 .product-item .product-name {
+  min-height: 35px !important;
+}

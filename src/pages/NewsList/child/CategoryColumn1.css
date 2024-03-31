@@ -1,0 +1,8 @@
+.category-product1 .column {
+    background-color: white;
+}
+@media only screen and (max-width: 600px) {
+    .category-product1 {
+        display: none;
+    }
+}

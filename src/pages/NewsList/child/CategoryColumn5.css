@@ -1,0 +1,20 @@
+
+.categories-column-5  .column {
+    background-color: white;
+}
+
+
+.categories-column-5 .product-category-toggle-1 {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    padding-bottom: 13px;
+    color: #223771;
+}
+
+@media only screen and (max-width: 600px) {
+    .categories-column-5 {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 1024px) {
+    .home-12 .home-12-categories {
+      display: none;
+    }
+    .home-12 .footer-mobile5 {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .container {
+        margin: 0;
+        width: 100% !important;
+
+    }
+    .product-deal-promotion {
+        font-size: 14px!important;
+    }
+  }
